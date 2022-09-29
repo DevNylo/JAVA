@@ -16,7 +16,7 @@ class Ex51 {
 
     soma = somar(num1, num2);
 
-    System.out.print("A soma é:"soma);
+    System.out.print("A soma é:" + soma);
 
   }
 
