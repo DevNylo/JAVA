@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Ex_08 {
+class Ex8 {
   public static void main(String[] args) {
 
     // Exercício 8

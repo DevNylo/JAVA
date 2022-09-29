@@ -1,3 +1,5 @@
-class Ex1 {
-    
+class Ex6 {
+    public static void main(String[] args){
+
+    }    
 }
