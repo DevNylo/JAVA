@@ -1,0 +1,10 @@
+package projetofinal;
+
+public class ProjetoYouTube {
+
+	public static void main(String[] args) {
+		// TODO Stub de método gerado automaticamente
+
+	}
+
+}

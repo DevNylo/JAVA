@@ -1,0 +1,6 @@
+package projetofinal;
+
+public class Gafanhoto {
+	private String login;
+	private int totAssistindo;
+}

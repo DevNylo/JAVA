@@ -1,0 +1,15 @@
+package com.heranca;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Visitante visita = new Visitante();
+		
+		visita.setNome("Danilo");
+		visita.setIdade(24);
+		visita.setSexo("M");
+
+	}
+
+}

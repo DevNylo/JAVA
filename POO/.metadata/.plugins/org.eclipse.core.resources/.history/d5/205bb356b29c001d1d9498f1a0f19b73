@@ -1,0 +1,18 @@
+package com.emojicombate;
+
+public class EmojiCombat {
+
+	public static void main(String[] args) {
+		
+		Lutador lutador = new Lutador();
+		
+		String[] lutadorArr = new String[6];
+		lutadorArr[0] = lutador.getNome();
+		lutadorArr[1] = lutador.getNome();
+		lutadorArr[2] = lutador.getNome();
+		lutadorArr[3] = lutador.getNome();
+		lutadorArr[4] = lutador.getNome();
+		lutadorArr[5] = lutador.getNome();
+	}
+
+}

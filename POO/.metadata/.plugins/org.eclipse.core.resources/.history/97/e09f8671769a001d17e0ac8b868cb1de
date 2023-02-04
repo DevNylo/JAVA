@@ -1,0 +1,47 @@
+package controleremoto;
+
+public class ControleRemoto implements Controlador {
+	private int volume;
+	private boolean ligado;
+	private boolean tocando;
+	
+	public ControleRemoto() {
+		this.volume = 50;
+		this.ligado = false;
+		this.tocando = false;
+	}
+	
+	public void ligar() {}
+	public void desligar() {}
+	public void abrirMenu() {}
+	public void fecharMenu() {}
+	public void mainVolume() {}
+	public void menosVolume() {}
+	public void ligarMudo() {}
+	public void desligarMudo() {}
+	public void play() {}
+	public void pause() {}
+	
+	public int getVolume() {
+		return this.volume;
+	}
+	public void setVolume(int vol) {
+		this.volume = vol;
+	}
+	
+	public boolean getLigado() {
+		return this.ligado;
+	}
+	public void setLigado(boolean lig) {
+		this.ligado = lig;
+	}
+	
+	public boolean getTocando() {
+		return this.tocando;
+	}
+	public void setTocando(boolean toc) {
+		this.tocando = toc;
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package com.heranca;
+
+public class Pessoa {
+	private String nome;
+	private int idade;
+	private String sexo;
+	
+	public final void fazerAniversario() {
+		
+	}
+}

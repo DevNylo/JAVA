@@ -1,0 +1,18 @@
+package com.emojicombate;
+
+public class EmojiCombat {
+
+	public static void main(String[] args) {
+		
+		Lutador lutadorObj = new Lutador();
+		
+		String[] lutadorArr = new String[6];
+		lutadorArr[0] = lutadorObj("Pretty boy", "França", 31, 1.75, 68.9, 11, 3, 1);
+		lutadorArr[1] =
+		lutadorArr[2] = 
+		lutadorArr[3] =
+		lutadorArr[4] = 
+		lutadorArr[5] = 
+	}
+
+}

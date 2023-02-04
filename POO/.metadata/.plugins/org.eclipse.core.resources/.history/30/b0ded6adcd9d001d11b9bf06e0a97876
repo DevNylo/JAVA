@@ -1,0 +1,26 @@
+package projetofinal;
+
+public class Gafanhoto extends Pessoa{
+	private String login;
+	private int totAssistindo;
+	
+	public void viuMaisUm() {
+		
+	}
+
+	public int getTotAssistindo() {
+		return totAssistindo;
+	}
+
+	public void setTotAssistindo(int totAssistindo) {
+		this.totAssistindo = totAssistindo;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+}

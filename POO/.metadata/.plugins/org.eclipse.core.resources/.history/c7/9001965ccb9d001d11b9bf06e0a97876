@@ -1,0 +1,7 @@
+package projetofinal;
+
+public interface AcoesVideo {
+	public abstract boolean play();
+	public abstract boolean pause();
+	public abstract int like();
+}

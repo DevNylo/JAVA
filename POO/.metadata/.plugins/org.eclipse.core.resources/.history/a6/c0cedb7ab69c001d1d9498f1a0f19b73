@@ -1,0 +1,16 @@
+package com.emojicombate;
+
+public class Luta {
+	private desafiante;
+	private desafiado;
+	private int rounds;
+	private boolean aprovada;
+	
+	public void marcarLuta() {
+		
+	}
+	public void lutar() {
+		
+	}
+	
+}

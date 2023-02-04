@@ -1,0 +1,10 @@
+package com.herdar;
+
+public class Heranca {
+	private String nome;
+	private int idade;
+	private String sexo;
+	
+	public void fazerAni() {
+		
+}

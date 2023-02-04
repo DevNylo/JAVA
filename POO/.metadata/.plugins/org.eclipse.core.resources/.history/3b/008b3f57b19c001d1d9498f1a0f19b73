@@ -1,0 +1,10 @@
+package com.emojicombate;
+
+public class EmojiCombat {
+
+	public static void main(String[] args) {
+		// TODO Stub de método gerado automaticamente
+
+	}
+
+}
