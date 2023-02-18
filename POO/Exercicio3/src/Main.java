@@ -1,29 +1,27 @@
-import entities.Cachorro;
+import entities.CurrencyConveter;
 import java.util.Scanner;
+import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
 
+        Locale.setDefault(Locale.US);
+
         Scanner input = new Scanner(System.in);
+        CurrencyConveter conveter = new CurrencyConveter();
 
-        Cachorro jack = new Cachorro();
-        Cachorro dupli = new Cachorro();
+        System.out.print("What's the dollar price: ");
+        CurrencyConveter.dollarPrice = input.nextFloat();
 
-        jack.corOlhos = "Preto";
-        jack.corPelo = "Caramelo";
-        jack.qtdPatas = 4;
+        System.out.print("How many dollars will be bought: ");
+        conveter.setDollarQuantity(input.nextFloat());
         input.close();
-        System.out.println(jack.getMovimento());
-        jack.setMovimento("O que o Jack esta fazendo?\n ");
-        System.out.println(jack.getMovimento());
-        jack.setMovimento(input.next());
 
-        dupli.corOlhos = "Marrom";
-        dupli.corPelo = "Preto";
-        dupli.qtdPatas = 3;
+        float totalValor =
+            CurrencyConveter.calc(
+            CurrencyConveter.dollarPrice,
+            CurrencyConveter.getDollarQuantity(),
+            CurrencyConveter.IOF_VALOR);
 
-        System.out.println(jack.toString());
-        System.out.println(dupli.toString());
-        jack.latir();
-        dupli.latir();
+        System.out.printf("Amount be pain in Real R$%.2f",totalValor);
     }
 }
