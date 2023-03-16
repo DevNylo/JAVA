@@ -22,7 +22,7 @@ public final class SavingsAccount extends Account {
     public void updateBalance(){
 
     }
-    public Double withdraw(Double amount){
+    public final Double withdraw(Double amount){
         return balance -= amount;
     }
 }
