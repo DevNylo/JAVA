@@ -7,13 +7,13 @@ public class Main {
         Locale.setDefault(Locale.US);
 
         Scanner input = new Scanner(System.in);
-        CurrencyConveter conveter = new CurrencyConveter();
+        CurrencyConveter conv = new CurrencyConveter();
 
         System.out.print("What's the dollar price: ");
         CurrencyConveter.dollarPrice = input.nextFloat();
 
         System.out.print("How many dollars will be bought: ");
-        conveter.setDollarQuantity(input.nextFloat());
+        conv.setDollarQuantity(input.nextFloat());
         input.close();
 
         float totalValor =
