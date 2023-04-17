@@ -1,9 +1,0 @@
-package projetofinal;
-
-public class Gafanhoto {
-	private String titulo;
-	private String avaliacao;
-	private int views;
-	private int curtidas;
-	private boolean reproduzindo;
-}

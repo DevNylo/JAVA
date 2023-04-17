@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Renomear o pacote &apos;Main&apos; para &apos;com.heranca&apos;&#x0D;&#x0A;- Original project: &apos;Herança&apos;&#x0D;&#x0A;- Elemento original: &apos;Herança/src/Main&apos;&#x0D;&#x0A;- Elemento renomeado: &apos;Herança/src/com.heranca&apos;&#x0D;&#x0A;- Atualizar referências para elemento recriado&#x0D;&#x0A;- Atualizar ocorrências textuais em comentários e cadeias" description="Renomear pacote &apos;Main&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Main" name="com.heranca" qualified="false" references="true" stamp="1674676187089" textual="false" version="1.0"/>
-</session>
