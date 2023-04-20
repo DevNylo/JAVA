@@ -1,4 +1,4 @@
-package br.com.devnylo.springboot.modelo;
+package br.com.devnylo.springboot.model;
 
 public class RespostaDelete {
     private String mensagem;

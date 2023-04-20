@@ -1,7 +1,7 @@
 package br.com.devnylo.springboot.Controller;
 
-import br.com.devnylo.springboot.modelo.ProductModel;
-import br.com.devnylo.springboot.modelo.RespostaDelete;
+import br.com.devnylo.springboot.model.ProductModel;
+import br.com.devnylo.springboot.model.RespostaDelete;
 import br.com.devnylo.springboot.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -15,8 +15,6 @@ public class ProductController {
     // AÇÕES
     @Autowired
     private ProductRepository actions;
-
-    // LISTAR PRODUTOS
 
     @ResponseBody
     @RequestMapping(value = "/produtos", method = RequestMethod.GET)

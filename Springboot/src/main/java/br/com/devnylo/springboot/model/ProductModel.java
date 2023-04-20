@@ -1,4 +1,4 @@
-package br.com.devnylo.springboot.modelo;
+package br.com.devnylo.springboot.model;
 
 import jakarta.persistence.*;
 
